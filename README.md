@@ -16,9 +16,9 @@ spark streaming 으로 kafka-0.10 consumer api를 사용하여 elasticsearch에 
        $java -jar kafkaspark-all-1.0-SNAPSHOT.jar 127.0.0.1 9200 localhost:9092
        
 파라미터 : 
-첫 번째 - elasticsearch 주소
-두 번째 - elasticsearch 포트 
-세 번째 - kafkaip:kafkaport
+첫 번째 - elasticsearch 주소, 
+두 번째 - elasticsearch 포트,
+세 번째 - kafkaip:kafkaport,
    
 
 
