@@ -14,6 +14,11 @@ spark streaming 으로 kafka-0.10 consumer api를 사용하여 elasticsearch에 
 5. (테스트) kafka console producer를 통해서 테스트 실행 함 
    kafkaspark-all-1.0-SNAPSHOT.jar 는 프로젝트 루트의 아래 /build/lib에 위치해있다.
        $java -jar kafkaspark-all-1.0-SNAPSHOT.jar 127.0.0.1 9200 localhost:9092
+       
+파라미터 : 
+첫 번째 - elasticsearch 주소
+두 번째 - elasticsearch 포트 
+세 번째 - kafkaip:kafkaport
    
 
 
